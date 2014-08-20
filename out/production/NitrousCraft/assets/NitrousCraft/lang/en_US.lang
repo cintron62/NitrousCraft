@@ -1,0 +1,9 @@
+//OreBlocks
+//Ingots
+item.nitrouscraft:PlatinumIngot.name=Platinum Ingot
+item.nitrouscraft:TitaniumIngot.name=Titanium Ingot
+//Blocks
+tile.nitrouscraft:PlatinumBlock.name=Platinum Block
+tile.nitrouscraft:TitaniumBlock.name=Titanium Block
+//Tools
+//
