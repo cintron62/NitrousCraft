@@ -1,5 +1,6 @@
 package com.cintron62.nitrouscraft.block;
 
+import com.cintron62.nitrouscraft.creativetab.CreativeTabNC;
 import com.cintron62.nitrouscraft.referance.Referance;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class BlockNC extends Block
     public BlockNC(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabNC.NC_TAB);
     }
 
     public BlockNC()

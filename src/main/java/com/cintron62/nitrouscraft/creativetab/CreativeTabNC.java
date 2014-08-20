@@ -12,7 +12,7 @@ public class CreativeTabNC
         @Override
         public Item getTabIconItem()
         {
-            return ModItems.PlatinumIngot;
+            return ModItems.TitaniumIngot;
         }
 
         @Override

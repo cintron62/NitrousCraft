@@ -1,7 +1,17 @@
+//Blanks
+tile.nitrouscraft:.name=
+item.nitrouscraft:.name=
 //OreBlocks
+tile.nitrouscraft:PlatinumOre.name=Platinum Ore
+tile.nitrouscraft:TitaniumOre.name=Titanium Ore
 //Ingots
 item.nitrouscraft:PlatinumIngot.name=Platinum Ingot
 item.nitrouscraft:TitaniumIngot.name=Titanium Ingot
+item.nitrouscraft:CobaltIngot.name= Cobalt Ingot
+item.nitrouscraft:CopperIngot.name= Copper Ingot
+item.nitrouscraft:LithiumIngot.name= Lithium Ingot
+item.nitrouscraft:TinIngot.name= Tin Ingot
+item.nitrouscraft:ZincIngot.name= Zinc Ingot
 //Blocks
 tile.nitrouscraft:PlatinumBlock.name=Platinum Block
 tile.nitrouscraft:TitaniumBlock.name=Titanium Block
