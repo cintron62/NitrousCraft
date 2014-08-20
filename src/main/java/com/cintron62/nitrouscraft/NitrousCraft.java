@@ -7,12 +7,14 @@ import com.cintron62.nitrouscraft.init.Recipes;
 import com.cintron62.nitrouscraft.proxy.IProxy;
 import com.cintron62.nitrouscraft.referance.Referance;
 import com.cintron62.nitrouscraft.utility.LogHelper;
+import com.cintron62.nitrouscraft.worldgen.NitrousCraftGenerator;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = Referance.MOD_ID, name = Referance.MOD_NAME, version = Referance.VERSION, guiFactory = Referance.GUI_FACTORY_CLASS)
 public class NitrousCraft
@@ -33,6 +35,10 @@ public class NitrousCraft
         ModItems.init();
 
         ModBlock.init();
+
+        NitrousCraftGenerator eventWorldGen = new NitrousCraftGenerator();
+
+        GameRegistry.registerWorldGenerator(eventWorldGen, 0);
     }
 
     @Mod.EventHandler
