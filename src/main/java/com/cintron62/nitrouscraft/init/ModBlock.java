@@ -28,5 +28,6 @@ public class ModBlock
         //Ores
         GameRegistry.registerBlock(PlatinumOre, "PlatinumOre");
         GameRegistry.registerBlock(TitaniumOre, "TitaniumOre");
+
     }
 }
