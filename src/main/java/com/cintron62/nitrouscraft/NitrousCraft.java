@@ -19,6 +19,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 @Mod(modid = Referance.MOD_ID, name = Referance.MOD_NAME, version = Referance.VERSION, guiFactory = Referance.GUI_FACTORY_CLASS)
 public class NitrousCraft
 {
+
     @Mod.Instance(Referance.MOD_ID)
     public static NitrousCraft instance;
 
@@ -53,4 +54,7 @@ public class NitrousCraft
     {
         LogHelper.info("Post Initialization Complete!");
     }
+
+
+
 }

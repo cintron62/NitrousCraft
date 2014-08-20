@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 [18:08:54] [main/INFO]: Setting user: ForgeDevName
 [18:08:56] [Client thread/INFO]: LWJGL Version: 2.9.1
 [18:09:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Nitrous Craft
 [18:09:02] [Sound Library Loader/INFO]: Sound engine started
 [18:09:02] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/PlatinumBlock.png
+=======
+[03:55:43] [main/INFO]: Setting user: ForgeDevName
+[03:55:45] [Client thread/INFO]: LWJGL Version: 2.9.1
+[03:55:54] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Nitrous Craft, FMLFileResourcePack:Minimap
+[03:55:55] [Sound Library Loader/INFO]: Sound engine started
+[03:55:56] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/PlatinumBlock.png
+>>>>>>> 1550ea4cd86e8345034e2fdc38d2a0afbedd14de
 java.io.FileNotFoundException: nitrouscraft:textures/blocks/PlatinumBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -32,6 +40,7 @@ java.io.FileNotFoundException: nitrouscraft:textures/blocks/PlatinumBlock.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+<<<<<<< HEAD
 [18:09:02] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/CopperBlock.png
 java.io.FileNotFoundException: nitrouscraft:textures/blocks/CopperBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
@@ -184,6 +193,10 @@ java.io.FileNotFoundException: nitrouscraft:textures/blocks/ZincBlock.png
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
 [18:09:03] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
 [18:09:03] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/ZincIngot.png
+=======
+[03:55:57] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[03:55:57] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/ZincIngot.png
+>>>>>>> 1550ea4cd86e8345034e2fdc38d2a0afbedd14de
 java.io.FileNotFoundException: nitrouscraft:textures/items/ZincIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -213,7 +226,11 @@ java.io.FileNotFoundException: nitrouscraft:textures/items/ZincIngot.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+<<<<<<< HEAD
 [18:09:03] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/TinIngot.png
+=======
+[03:55:57] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/TinIngot.png
+>>>>>>> 1550ea4cd86e8345034e2fdc38d2a0afbedd14de
 java.io.FileNotFoundException: nitrouscraft:textures/items/TinIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -243,7 +260,11 @@ java.io.FileNotFoundException: nitrouscraft:textures/items/TinIngot.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+<<<<<<< HEAD
 [18:09:03] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/CobaltIngot.png
+=======
+[03:55:57] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/CobaltIngot.png
+>>>>>>> 1550ea4cd86e8345034e2fdc38d2a0afbedd14de
 java.io.FileNotFoundException: nitrouscraft:textures/items/CobaltIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -273,7 +294,11 @@ java.io.FileNotFoundException: nitrouscraft:textures/items/CobaltIngot.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+<<<<<<< HEAD
 [18:09:03] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/PlatinumIngot.png
+=======
+[03:55:57] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/PlatinumIngot.png
+>>>>>>> 1550ea4cd86e8345034e2fdc38d2a0afbedd14de
 java.io.FileNotFoundException: nitrouscraft:textures/items/PlatinumIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -303,7 +328,11 @@ java.io.FileNotFoundException: nitrouscraft:textures/items/PlatinumIngot.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+<<<<<<< HEAD
 [18:09:03] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/LithiumIngot.png
+=======
+[03:55:57] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/LithiumIngot.png
+>>>>>>> 1550ea4cd86e8345034e2fdc38d2a0afbedd14de
 java.io.FileNotFoundException: nitrouscraft:textures/items/LithiumIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -333,7 +362,11 @@ java.io.FileNotFoundException: nitrouscraft:textures/items/LithiumIngot.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+<<<<<<< HEAD
 [18:09:03] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/CopperIngot.png
+=======
+[03:55:57] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/CopperIngot.png
+>>>>>>> 1550ea4cd86e8345034e2fdc38d2a0afbedd14de
 java.io.FileNotFoundException: nitrouscraft:textures/items/CopperIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -363,6 +396,7 @@ java.io.FileNotFoundException: nitrouscraft:textures/items/CopperIngot.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+<<<<<<< HEAD
 [18:09:03] [Client thread/INFO]: Created: 256x256 textures/items-atlas
 [18:09:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Nitrous Craft
 [18:09:03] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/ZincIngot.png
@@ -824,3 +858,6 @@ java.io.FileNotFoundException: nitrouscraft:textures/blocks/ZincBlock.png
 [18:10:47] [Server thread/INFO]: Saving chunks for level 'New World'/The End
 [18:10:47] [Client Shutdown Thread/INFO]: Stopping server
 [18:10:47] [Client Shutdown Thread/INFO]: Saving players
+=======
+[03:55:57] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+>>>>>>> 1550ea4cd86e8345034e2fdc38d2a0afbedd14de

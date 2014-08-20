@@ -45,5 +45,8 @@ public class ModBlock
         GameRegistry.registerBlock(CobaltOre, "CobaltOre");
         GameRegistry.registerBlock(LithiumOre, "LithiumOre");
         GameRegistry.registerBlock(ZincOre, "ZincOre");
+
+
+
     }
 }
