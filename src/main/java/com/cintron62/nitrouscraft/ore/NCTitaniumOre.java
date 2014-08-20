@@ -14,6 +14,7 @@ public class NCTitaniumOre extends BlockNC
         this.setHardness(4.0F);
         this.setResistance(6.0F);
         this.setStepSound(soundTypeStone);
+        this.setHarvestLevel("pickaxe", 3);
 
     }
 }

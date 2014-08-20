@@ -11,13 +11,6 @@ import net.minecraft.world.gen.feature.WorldGenMinable;
 
 import java.util.Random;
 
-<<<<<<< HEAD
-=======
-/**
- * Created by Rikusen on 8/20/2014.
- */
-
->>>>>>> 1550ea4cd86e8345034e2fdc38d2a0afbedd14de
 public class NitrousCraftGenerator implements IWorldGenerator {
 
     @Override
@@ -40,7 +33,7 @@ public class NitrousCraftGenerator implements IWorldGenerator {
 
     private void generateSurface(World world, Random random, int x, int z) {
         //this.addOreSpawn(ModBlock.WhateverOre, world, random, x = BlockXPos, z = BlockZPos, maxX, maxZ, maxVeinSize, ChancetoSpawn, minY, maxY);
-<<<<<<< HEAD
+
         this.addOreSpawn(ModBlock.PlatinumOre, world, random, x, z, 16, 16, 2+random.nextInt(8), 13, 6, 28);
         this.addOreSpawn(ModBlock.TitaniumOre, world, random, x, z, 16, 16, 2+random.nextInt(8), 13, 6, 28);
         this.addOreSpawn(ModBlock.CopperOre, world, random, x, z, 16, 16, 6+random.nextInt(10), 32, 6, 64);
@@ -48,10 +41,10 @@ public class NitrousCraftGenerator implements IWorldGenerator {
         this.addOreSpawn(ModBlock.CobaltOre, world, random, x, z, 16, 16, 1+random.nextInt(4), 8, 6, 16);
         this.addOreSpawn(ModBlock.LithiumOre, world, random, x, z, 16, 16, 4+random.nextInt(8), 24, 6, 64);
         this.addOreSpawn(ModBlock.ZincOre, world, random, x, z, 16, 16, 4+random.nextInt(8), 28, 6, 96);
-=======
+
         this.addOreSpawn(ModBlock.PlatinumOre, world, random, x, z, 16, 16, 2+random.nextInt(8), 25, 6, 100);
         this.addOreSpawn(ModBlock.TitaniumOre, world, random, x, z, 16, 16, 2+random.nextInt(8), 25, 6, 100);
->>>>>>> 1550ea4cd86e8345034e2fdc38d2a0afbedd14de
+
     }
 
     private void generateNether(World world, Random random, int x, int z) {
