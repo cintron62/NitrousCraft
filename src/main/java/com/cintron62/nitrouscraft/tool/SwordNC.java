@@ -4,16 +4,16 @@ import com.cintron62.nitrouscraft.creativetab.CreativeTabNC;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemSword;
 
 import static com.cintron62.nitrouscraft.referance.Referance.MOD_ID;
 
-public class PickaxeNC extends ItemPickaxe
+public class SwordNC extends ItemSword
 {
 
-    public PickaxeNC(ToolMaterial p_i45347_1_) {
-        super(p_i45347_1_);
+    public SwordNC(ToolMaterial p_i45356_1_) {
+        super(p_i45356_1_);
         this.setCreativeTab(CreativeTabNC.NC_TAB);
     }
 

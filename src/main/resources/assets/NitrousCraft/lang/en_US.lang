@@ -32,4 +32,8 @@ tile.nitrouscraft:ZincBlock.name=Zinc Block
 item.nitrouscraft:TitaniumPick.name=Titanium Pickaxe
 item.nitrouscraft:PlatinumPick.name=Platinum Pickaxe
 item.nitrouscraft:CobaltPick.name=Cobalt Pickaxe
+item.nitrouscraft:TitaniumSword.name=Titanium Sword
+item.nitrouscraft:PlatinumSword.name=Platinum Sword
+item.nitrouscraft:CobaltSword.name=Cobalt Sword
+
 //

@@ -5,7 +5,6 @@ package com.cintron62.nitrouscraft.tool;
  */
 public class NCTitaniumPick extends PickaxeNC
 {
-
     public NCTitaniumPick(ToolMaterial p_i45347_1_) {
         super(p_i45347_1_);
         this.setUnlocalizedName("TitaniumPick");
