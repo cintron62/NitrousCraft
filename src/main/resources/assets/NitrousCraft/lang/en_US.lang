@@ -9,6 +9,7 @@ tile.nitrouscraft:TinOre.name=Tin Ore
 tile.nitrouscraft:LithiumOre.name=Lithium Ore
 tile.nitrouscraft:ZincOre.name=Zinc Ore
 tile.nitrouscraft:CobaltOre.name=Cobalt Ore
+tile.nitrouscraft:EarthMagnet.name=Earth Magnet Ore
 //Ingots
 item.nitrouscraft:PlatinumIngot.name=Platinum Ingot
 item.nitrouscraft:TitaniumIngot.name=Titanium Ingot

@@ -1,9 +1,8 @@
-[18:30:03] [main/INFO]: Setting user: ForgeDevName
-[18:30:07] [Client thread/INFO]: LWJGL Version: 2.9.1
-[18:30:08] [Client thread/ERROR]: Couldn't initialize twitch stream
-[18:30:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Nitrous Craft
-[18:30:18] [Sound Library Loader/INFO]: Sound engine started
-[18:30:19] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/PlatinumBlock.png
+[20:02:25] [main/INFO]: Setting user: ForgeDevName
+[20:02:27] [Client thread/INFO]: LWJGL Version: 2.9.1
+[20:02:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Nitrous Craft
+[20:02:33] [Sound Library Loader/INFO]: Sound engine started
+[20:02:33] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/PlatinumBlock.png
 java.io.FileNotFoundException: nitrouscraft:textures/blocks/PlatinumBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -28,7 +27,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/blocks/PlatinumBlock.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:19] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/CopperBlock.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:33] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/CopperBlock.png
 java.io.FileNotFoundException: nitrouscraft:textures/blocks/CopperBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -53,7 +57,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/blocks/CopperBlock.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:19] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/TinBlock.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:33] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/TinBlock.png
 java.io.FileNotFoundException: nitrouscraft:textures/blocks/TinBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -78,7 +87,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/blocks/TinBlock.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:20] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/CobaltBlock.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:33] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/CobaltBlock.png
 java.io.FileNotFoundException: nitrouscraft:textures/blocks/CobaltBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -103,7 +117,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/blocks/CobaltBlock.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:20] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/LithiumBlock.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:33] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/LithiumBlock.png
 java.io.FileNotFoundException: nitrouscraft:textures/blocks/LithiumBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -128,7 +147,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/blocks/LithiumBlock.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:20] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/ZincBlock.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:33] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/ZincBlock.png
 java.io.FileNotFoundException: nitrouscraft:textures/blocks/ZincBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -153,8 +177,13 @@ java.io.FileNotFoundException: nitrouscraft:textures/blocks/ZincBlock.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:20] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:30:20] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/ZincIngot.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:33] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:02:34] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/ZincIngot.png
 java.io.FileNotFoundException: nitrouscraft:textures/items/ZincIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -179,7 +208,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/items/ZincIngot.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:20] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/TinIngot.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:34] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/TinIngot.png
 java.io.FileNotFoundException: nitrouscraft:textures/items/TinIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -204,7 +238,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/items/TinIngot.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:20] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/CobaltIngot.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:34] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/CobaltIngot.png
 java.io.FileNotFoundException: nitrouscraft:textures/items/CobaltIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -229,7 +268,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/items/CobaltIngot.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:20] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/PlatinumIngot.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:34] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/PlatinumIngot.png
 java.io.FileNotFoundException: nitrouscraft:textures/items/PlatinumIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -254,7 +298,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/items/PlatinumIngot.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:20] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/LithiumIngot.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:34] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/LithiumIngot.png
 java.io.FileNotFoundException: nitrouscraft:textures/items/LithiumIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -279,7 +328,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/items/LithiumIngot.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:20] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/CopperIngot.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:34] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/CopperIngot.png
 java.io.FileNotFoundException: nitrouscraft:textures/items/CopperIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -304,9 +358,14 @@ java.io.FileNotFoundException: nitrouscraft:textures/items/CopperIngot.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:20] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[18:30:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Nitrous Craft
-[18:30:21] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/ZincIngot.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:34] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:02:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Nitrous Craft
+[20:02:34] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/ZincIngot.png
 java.io.FileNotFoundException: nitrouscraft:textures/items/ZincIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -334,7 +393,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/items/ZincIngot.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:21] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/TinIngot.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:34] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/TinIngot.png
 java.io.FileNotFoundException: nitrouscraft:textures/items/TinIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -362,7 +426,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/items/TinIngot.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:21] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/CobaltIngot.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:34] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/CobaltIngot.png
 java.io.FileNotFoundException: nitrouscraft:textures/items/CobaltIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -390,7 +459,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/items/CobaltIngot.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:21] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/PlatinumIngot.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:34] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/PlatinumIngot.png
 java.io.FileNotFoundException: nitrouscraft:textures/items/PlatinumIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -418,7 +492,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/items/PlatinumIngot.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:21] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/LithiumIngot.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:34] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/LithiumIngot.png
 java.io.FileNotFoundException: nitrouscraft:textures/items/LithiumIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -446,7 +525,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/items/LithiumIngot.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:21] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/CopperIngot.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:34] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/items/CopperIngot.png
 java.io.FileNotFoundException: nitrouscraft:textures/items/CopperIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -474,8 +558,13 @@ java.io.FileNotFoundException: nitrouscraft:textures/items/CopperIngot.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:21] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[18:30:21] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/PlatinumBlock.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:34] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:02:34] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/PlatinumBlock.png
 java.io.FileNotFoundException: nitrouscraft:textures/blocks/PlatinumBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -503,7 +592,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/blocks/PlatinumBlock.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:21] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/CopperBlock.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:34] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/CopperBlock.png
 java.io.FileNotFoundException: nitrouscraft:textures/blocks/CopperBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -531,7 +625,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/blocks/CopperBlock.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:21] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/TinBlock.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:34] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/TinBlock.png
 java.io.FileNotFoundException: nitrouscraft:textures/blocks/TinBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -559,7 +658,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/blocks/TinBlock.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:21] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/CobaltBlock.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:34] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/CobaltBlock.png
 java.io.FileNotFoundException: nitrouscraft:textures/blocks/CobaltBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -587,7 +691,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/blocks/CobaltBlock.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:21] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/LithiumBlock.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:34] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/LithiumBlock.png
 java.io.FileNotFoundException: nitrouscraft:textures/blocks/LithiumBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -615,7 +724,12 @@ java.io.FileNotFoundException: nitrouscraft:textures/blocks/LithiumBlock.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:21] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/ZincBlock.png
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:34] [Client thread/ERROR]: Using missing texture, unable to load nitrouscraft:textures/blocks/ZincBlock.png
 java.io.FileNotFoundException: nitrouscraft:textures/blocks/ZincBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -643,61 +757,11 @@ java.io.FileNotFoundException: nitrouscraft:textures/blocks/ZincBlock.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:30:21] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:30:22] [Sound Library Loader/INFO]: Sound engine started
-[18:30:28] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[18:30:28] [Server thread/INFO]: Generating keypair
-[18:30:29] [Server thread/INFO]: Preparing start region for level 0
-[18:30:30] [Server thread/INFO]: Preparing spawn area: 95%
-[18:30:30] [Server thread/INFO]: Changing view distance to 8, from 10
-[18:30:31] [Server thread/INFO]: ForgeDevName[local:E:44fbdfd9] logged in with entity id 256 at (-273.7623049990024, 72.0, 267.51374977297866)
-[18:30:31] [Server thread/INFO]: ForgeDevName joined the game
-[18:30:44] [Server thread/INFO]: Saving and pausing game...
-[18:30:44] [Server thread/INFO]: Saving chunks for level 'Ore test'/Overworld
-[18:30:44] [Server thread/INFO]: Saving chunks for level 'Ore test'/Nether
-[18:30:44] [Server thread/INFO]: Saving chunks for level 'Ore test'/The End
-[18:31:18] [Server thread/INFO]: [ForgeDevName: Given [Zinc Ore] * 63 to ForgeDevName]
-[18:31:18] [Client thread/INFO]: [CHAT] Given [Zinc Ore] * 63 to ForgeDevName
-[18:31:22] [Server thread/INFO]: [ForgeDevName: Given [Lithium Ore] * 63 to ForgeDevName]
-[18:31:22] [Client thread/INFO]: [CHAT] Given [Lithium Ore] * 63 to ForgeDevName
-[18:31:23] [Server thread/INFO]: [ForgeDevName: Given [Cobalt Ore] * 63 to ForgeDevName]
-[18:31:23] [Client thread/INFO]: [CHAT] Given [Cobalt Ore] * 63 to ForgeDevName
-[18:31:23] [Server thread/INFO]: [ForgeDevName: Given [Tin Ore] * 63 to ForgeDevName]
-[18:31:23] [Client thread/INFO]: [CHAT] Given [Tin Ore] * 63 to ForgeDevName
-[18:31:24] [Server thread/INFO]: [ForgeDevName: Given [Copper Ore] * 63 to ForgeDevName]
-[18:31:24] [Client thread/INFO]: [CHAT] Given [Copper Ore] * 63 to ForgeDevName
-[18:31:26] [Server thread/INFO]: [ForgeDevName: Given [Platinum Ore] * 63 to ForgeDevName]
-[18:31:26] [Client thread/INFO]: [CHAT] Given [Platinum Ore] * 63 to ForgeDevName
-[18:31:31] [Server thread/INFO]: [ForgeDevName: Given [Titanium Ore] * 63 to ForgeDevName]
-[18:31:31] [Client thread/INFO]: [CHAT] Given [Titanium Ore] * 63 to ForgeDevName
-[18:31:46] [Server thread/INFO]: [ForgeDevName: Given [Coal] * 63 to ForgeDevName]
-[18:31:46] [Client thread/INFO]: [CHAT] Given [Coal] * 63 to ForgeDevName
-[18:34:23] [Server thread/INFO]: [ForgeDevName: Given [Platinum Ore] * 63 to ForgeDevName]
-[18:34:23] [Client thread/INFO]: [CHAT] Given [Platinum Ore] * 63 to ForgeDevName
-[18:34:24] [Server thread/INFO]: [ForgeDevName: Given [Copper Ore] * 63 to ForgeDevName]
-[18:34:24] [Client thread/INFO]: [CHAT] Given [Copper Ore] * 63 to ForgeDevName
-[18:34:24] [Server thread/INFO]: [ForgeDevName: Given [Titanium Ore] * 63 to ForgeDevName]
-[18:34:24] [Client thread/INFO]: [CHAT] Given [Titanium Ore] * 63 to ForgeDevName
-[18:34:25] [Server thread/INFO]: [ForgeDevName: Given [Tin Ore] * 63 to ForgeDevName]
-[18:34:25] [Client thread/INFO]: [CHAT] Given [Tin Ore] * 63 to ForgeDevName
-[18:34:25] [Server thread/INFO]: [ForgeDevName: Given [Cobalt Ore] * 63 to ForgeDevName]
-[18:34:25] [Client thread/INFO]: [CHAT] Given [Cobalt Ore] * 63 to ForgeDevName
-[18:34:26] [Server thread/INFO]: [ForgeDevName: Given [Lithium Ore] * 63 to ForgeDevName]
-[18:34:26] [Client thread/INFO]: [CHAT] Given [Lithium Ore] * 63 to ForgeDevName
-[18:34:26] [Server thread/INFO]: [ForgeDevName: Given [Zinc Ore] * 63 to ForgeDevName]
-[18:34:26] [Client thread/INFO]: [CHAT] Given [Zinc Ore] * 63 to ForgeDevName
-[18:35:02] [Server thread/INFO]: [ForgeDevName: Set own game mode to Survival Mode]
-[18:35:02] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[18:35:30] [Server thread/INFO]: [ForgeDevName: Set the time to 1000]
-[18:35:30] [Client thread/INFO]: [CHAT] Set the time to 1000
-[18:35:54] [Server thread/INFO]: Saving and pausing game...
-[18:35:54] [Server thread/INFO]: Saving chunks for level 'Ore test'/Overworld
-[18:35:54] [Server thread/INFO]: Saving chunks for level 'Ore test'/Nether
-[18:35:54] [Server thread/INFO]: Saving chunks for level 'Ore test'/The End
-[18:35:54] [Server thread/INFO]: Stopping server
-[18:35:54] [Server thread/INFO]: Saving players
-[18:35:54] [Server thread/INFO]: Saving worlds
-[18:35:54] [Server thread/INFO]: Saving chunks for level 'Ore test'/Overworld
-[18:35:54] [Server thread/INFO]: Saving chunks for level 'Ore test'/Nether
-[18:35:54] [Server thread/INFO]: Saving chunks for level 'Ore test'/The End
-[18:35:56] [Client thread/INFO]: Stopping!
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[20:02:34] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:02:35] [Sound Library Loader/INFO]: Sound engine started
+[20:04:56] [Client thread/INFO]: Stopping!

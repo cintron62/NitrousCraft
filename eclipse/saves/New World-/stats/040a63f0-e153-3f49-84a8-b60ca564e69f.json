@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"achievement.openInventory":2,"achievement.exploreAllBiomes":{"value":0,"progress":["Taiga","Extreme Hills","River"]},"stat.useItem.50":12,"stat.flyOneCm":6668,"stat.playOneMinute":4384,"stat.jump":3,"stat.walkOneCm":3798}
-=======
-{"achievement.exploreAllBiomes":{"value":0,"progress":["Forest"]},"achievement.openInventory":4,"stat.drop":1,"stat.flyOneCm":5769,"stat.useItem.61":1,"stat.playOneMinute":49267,"stat.walkOneCm":2322,"stat.jump":4}
->>>>>>> 1550ea4cd86e8345034e2fdc38d2a0afbedd14de
+{"achievement.exploreAllBiomes":{"value":0,"progress":["Forest","Beach"]},"achievement.openInventory":2,"stat.damageTaken":20,"stat.fallOneCm":753,"stat.flyOneCm":2024,"stat.playOneMinute":421,"stat.jump":8,"stat.walkOneCm":2743}

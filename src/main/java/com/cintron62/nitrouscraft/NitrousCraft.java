@@ -47,7 +47,9 @@ public class NitrousCraft
     public void init(FMLInitializationEvent event)
     {
         Recipes.init();
+
         Smelting.init();
+
         LogHelper.info("Initialization Complete!");
     }
 
