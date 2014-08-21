@@ -1,10 +1,7 @@
 package com.cintron62.nitrouscraft;
 
 import com.cintron62.nitrouscraft.handler.ConfigurationHandler;
-import com.cintron62.nitrouscraft.init.ModBlock;
-import com.cintron62.nitrouscraft.init.ModItems;
-import com.cintron62.nitrouscraft.init.Recipes;
-import com.cintron62.nitrouscraft.init.Smelting;
+import com.cintron62.nitrouscraft.init.*;
 import com.cintron62.nitrouscraft.proxy.IProxy;
 import com.cintron62.nitrouscraft.referance.Referance;
 import com.cintron62.nitrouscraft.utility.LogHelper;
@@ -38,6 +35,8 @@ public class NitrousCraft
 
         ModBlock.init();
 
+        ModTools.init();
+
         NitrousCraftGenerator eventWorldGen = new NitrousCraftGenerator();
 
         GameRegistry.registerWorldGenerator(eventWorldGen, 0);
@@ -47,7 +46,9 @@ public class NitrousCraft
     public void init(FMLInitializationEvent event)
     {
         Recipes.init();
+
         Smelting.init();
+
         LogHelper.info("Initialization Complete!");
     }
 

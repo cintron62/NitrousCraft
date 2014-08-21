@@ -25,6 +25,7 @@ public class ModBlock
     public static final BlockNC CobaltOre =new NCCobaltOre();
     public static final BlockNC LithiumOre =new NCLithiumOre();
     public static final BlockNC ZincOre =new NCZincOre();
+    public static final BlockNC EarthMagnetOre =new NCEarthMagnetOre();
 
     public static void init()
     {
@@ -45,6 +46,7 @@ public class ModBlock
         GameRegistry.registerBlock(CobaltOre, "CobaltOre");
         GameRegistry.registerBlock(LithiumOre, "LithiumOre");
         GameRegistry.registerBlock(ZincOre, "ZincOre");
+        GameRegistry.registerBlock(EarthMagnetOre, "EarthMagnetOre");
 
 
 

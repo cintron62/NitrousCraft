@@ -15,7 +15,7 @@ public class NCTinOre extends BlockNC
         this.setHardness(3.0F);
         this.setResistance(5.0F);
         this.setStepSound(soundTypeStone);
-        this.setHarvestLevel("pickaxe", 3);
+        this.setHarvestLevel("pickaxe", 2);
 
     }
 }

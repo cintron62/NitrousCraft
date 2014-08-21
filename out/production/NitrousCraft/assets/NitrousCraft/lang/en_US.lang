@@ -1,6 +1,8 @@
 //Blanks
 tile.nitrouscraft:.name=
 item.nitrouscraft:.name=
+//CreativeTabName
+itemGroup.nitrouscraft=Nitrous Craft
 //OreBlocks
 tile.nitrouscraft:PlatinumOre.name=Platinum Ore
 tile.nitrouscraft:TitaniumOre.name=Titanium Ore
@@ -9,6 +11,7 @@ tile.nitrouscraft:TinOre.name=Tin Ore
 tile.nitrouscraft:LithiumOre.name=Lithium Ore
 tile.nitrouscraft:ZincOre.name=Zinc Ore
 tile.nitrouscraft:CobaltOre.name=Cobalt Ore
+tile.nitrouscraft:EarthMagnetOre.name=Earth Magnet Ore
 //Ingots
 item.nitrouscraft:PlatinumIngot.name=Platinum Ingot
 item.nitrouscraft:TitaniumIngot.name=Titanium Ingot
@@ -26,4 +29,7 @@ tile.nitrouscraft:CobaltBlock.name=Cobalt Block
 tile.nitrouscraft:LithiumBlock.name=Lithium Block
 tile.nitrouscraft:ZincBlock.name=Zinc Block
 //Tools
+item.nitrouscraft:TitaniumPick.name=Titanium Pickaxe
+item.nitrouscraft:PlatinumPick.name=Platinum Pickaxe
+item.nitrouscraft:CobaltPick.name=Cobalt Pickaxe
 //

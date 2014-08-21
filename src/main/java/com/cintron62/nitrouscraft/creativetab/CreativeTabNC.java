@@ -7,18 +7,12 @@ import net.minecraft.item.Item;
 
 public class CreativeTabNC
 {
-    public static final CreativeTabs NC_TAB = new CreativeTabs(Referance.MOD_ID)
+    public static final CreativeTabs NC_TAB = new CreativeTabs(Referance.MOD_ID.toLowerCase())
     {
         @Override
         public Item getTabIconItem()
         {
             return ModItems.TitaniumIngot;
-        }
-
-        @Override
-        public String getTranslatedTabLabel()
-        {
-            return "Nitrous Craft";
         }
     };
 }

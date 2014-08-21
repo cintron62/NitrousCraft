@@ -41,6 +41,8 @@ public class NitrousCraftGenerator implements IWorldGenerator {
         this.addOreSpawn(ModBlock.CobaltOre, world, random, x, z, 16, 16, 1+random.nextInt(4), 1, 6, 16);
         this.addOreSpawn(ModBlock.LithiumOre, world, random, x, z, 16, 16, 4+random.nextInt(8), 7, 6, 64);
         this.addOreSpawn(ModBlock.ZincOre, world, random, x, z, 16, 16, 4+random.nextInt(8), 6, 6, 96);
+        this.addOreSpawn(ModBlock.EarthMagnetOre, world, random, x, z, 16, 16, 1+random.nextInt(5), 2, 6, 96);
+
 
     }
 
