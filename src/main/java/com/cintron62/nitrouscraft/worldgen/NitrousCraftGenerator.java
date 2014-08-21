@@ -34,13 +34,13 @@ public class NitrousCraftGenerator implements IWorldGenerator {
     private void generateSurface(World world, Random random, int x, int z) {
         //this.addOreSpawn(ModBlock.WhateverOre, world, random, x = BlockXPos, z = BlockZPos, maxX, maxZ, maxVeinSize, ChancetoSpawn, minY, maxY);
 
-        this.addOreSpawn(ModBlock.PlatinumOre, world, random, x, z, 16, 16, 2+random.nextInt(8), 9, 6, 28);
-        this.addOreSpawn(ModBlock.TitaniumOre, world, random, x, z, 16, 16, 2+random.nextInt(8), 9, 6, 28);
-        this.addOreSpawn(ModBlock.CopperOre, world, random, x, z, 16, 16, 6+random.nextInt(10), 20, 6, 64);
-        this.addOreSpawn(ModBlock.TinOre, world, random, x, z, 16, 16, 6+random.nextInt(10), 20, 6, 64);
-        this.addOreSpawn(ModBlock.CobaltOre, world, random, x, z, 16, 16, 1+random.nextInt(4), 4, 6, 16);
-        this.addOreSpawn(ModBlock.LithiumOre, world, random, x, z, 16, 16, 4+random.nextInt(8), 13, 6, 64);
-        this.addOreSpawn(ModBlock.ZincOre, world, random, x, z, 16, 16, 4+random.nextInt(8), 12, 6, 96);
+        this.addOreSpawn(ModBlock.PlatinumOre, world, random, x, z, 16, 16, 2+random.nextInt(8), 3, 6, 28);
+        this.addOreSpawn(ModBlock.TitaniumOre, world, random, x, z, 16, 16, 2+random.nextInt(8), 2, 6, 28);
+        this.addOreSpawn(ModBlock.CopperOre, world, random, x, z, 16, 16, 6+random.nextInt(10), 12, 6, 64);
+        this.addOreSpawn(ModBlock.TinOre, world, random, x, z, 16, 16, 6+random.nextInt(10), 10, 6, 64);
+        this.addOreSpawn(ModBlock.CobaltOre, world, random, x, z, 16, 16, 1+random.nextInt(4), 1, 6, 16);
+        this.addOreSpawn(ModBlock.LithiumOre, world, random, x, z, 16, 16, 4+random.nextInt(8), 7, 6, 64);
+        this.addOreSpawn(ModBlock.ZincOre, world, random, x, z, 16, 16, 4+random.nextInt(8), 6, 6, 96);
 
 
     }
