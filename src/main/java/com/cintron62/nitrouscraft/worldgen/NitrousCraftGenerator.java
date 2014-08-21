@@ -42,6 +42,7 @@ public class NitrousCraftGenerator implements IWorldGenerator {
         this.addOreSpawn(ModBlock.LithiumOre, world, random, x, z, 16, 16, 4+random.nextInt(8), 13, 6, 64);
         this.addOreSpawn(ModBlock.ZincOre, world, random, x, z, 16, 16, 4+random.nextInt(8), 12, 6, 96);
 
+
     }
 
     private void generateNether(World world, Random random, int x, int z) {
