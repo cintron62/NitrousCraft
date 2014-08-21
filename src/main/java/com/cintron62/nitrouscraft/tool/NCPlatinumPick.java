@@ -5,7 +5,6 @@ package com.cintron62.nitrouscraft.tool;
  */
 public class NCPlatinumPick extends PickaxeNC
 {
-
     public NCPlatinumPick(ToolMaterial p_i45347_1_) {
         super(p_i45347_1_);
         this.setUnlocalizedName("PlatinumPick");
