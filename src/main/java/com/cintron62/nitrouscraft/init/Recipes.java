@@ -1,6 +1,10 @@
 package com.cintron62.nitrouscraft.init;
 
+import com.cintron62.nitrouscraft.entity.machines.NCSmoothStoneFurnace;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockStone;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -38,5 +42,12 @@ public class Recipes
         GameRegistry.addRecipe(new ItemStack(ModBlock.TinBlock), "sss", "sss", "sss", 's', new ItemStack(TinIngot));
         GameRegistry.addRecipe(new ItemStack(ModBlock.CopperBlock), "sss", "sss", "sss", 's', new ItemStack(CopperIngot));
 
+        //Machines
+        GameRegistry.addRecipe(new ItemStack(ModBlock.SmoothStoneFurnace), "sss", "s s", "sss", 's', new ItemStack(Blocks.stone));
+
+        //Items
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.ClayIngotMold), "   ", "c c", "ccc", 'c', new ItemStack(Items.clay_ball));
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.WoodIngotMold), "   ", "c c", "ccc", 'c', new ItemStack(Blocks.log));
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.TitaniumIngotMold), "   ", "c c", "ccc", 'c', new ItemStack(Items.clay_ball));
     }
 }
