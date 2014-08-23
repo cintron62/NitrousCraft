@@ -9,6 +9,7 @@ public class NCClayIngotMold extends ItemNC
     {
         super();
         this.setUnlocalizedName("ClayIngotMold");
+        this.setTextureName("clayingotmold");
         this.setCreativeTab(CreativeTabNC.NC_TAB);
     }
 }

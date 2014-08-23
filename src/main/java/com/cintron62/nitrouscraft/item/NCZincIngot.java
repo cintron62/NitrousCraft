@@ -8,6 +8,7 @@ public class NCZincIngot extends ItemNC
     {
         super();
         this.setUnlocalizedName("ZincIngot");
+        this.setTextureName("zincingot");
         this.setCreativeTab(CreativeTabNC.NC_TAB);
     }
 }

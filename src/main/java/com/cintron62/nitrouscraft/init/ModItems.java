@@ -1,5 +1,6 @@
 package com.cintron62.nitrouscraft.init;
 
+import com.cintron62.nitrouscraft.discs.*;
 import com.cintron62.nitrouscraft.item.*;
 import com.cintron62.nitrouscraft.referance.Referance;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -23,6 +24,11 @@ public class ModItems
     public static final ItemNC WoodIngotMold = new NCWoodIngotMold();
     public static final ItemNC TitaniumIngotMold = new NCTitaniumIngotMold();
 
+    //Discs
+    public static final MainRecords Flowering = new Disc1(/*Reference.MOD_ID + ":" + */Strings.disc1);
+    public static final MainRecords Bloom = new Disc2(/*Reference.MOD_ID + ":" + */Strings.disc2);
+    public static final MainRecords Border = new Disc3(/*Reference.MOD_ID + ":" + */Strings.disc3);
+
     //Tools
     //Weapons
     //Armor
@@ -44,6 +50,11 @@ public class ModItems
         GameRegistry.registerItem(ClayIngotMold, "ClayIngotMold");
         GameRegistry.registerItem(WoodIngotMold, "WoodIngotMold");
         GameRegistry.registerItem(TitaniumIngotMold, "TitaniumIngotMold");
+
+        //Discs
+        GameRegistry.registerItem(Flowering, Strings.disc1);
+        GameRegistry.registerItem(Bloom, Strings.disc2);
+        GameRegistry.registerItem(Border, Strings.disc3);
 
         //Tools
         //Weapons

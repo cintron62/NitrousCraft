@@ -8,6 +8,7 @@ public class NCTitaniumIngotMold extends ItemNC
     {
         super();
         this.setUnlocalizedName("TitaniumIngotMold");
+        this.setTextureName("titaniumingotmold");
         this.setCreativeTab(CreativeTabNC.NC_TAB);
     }
 }

@@ -8,6 +8,7 @@ public class NCCopperIngot extends ItemNC
     {
         super();
         this.setUnlocalizedName("CopperIngot");
+        this.setTextureName("copperingot");
         this.setCreativeTab(CreativeTabNC.NC_TAB);
     }
 }

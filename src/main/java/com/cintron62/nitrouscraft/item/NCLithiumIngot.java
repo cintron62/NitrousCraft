@@ -8,6 +8,7 @@ public class NCLithiumIngot extends ItemNC
     {
         super();
         this.setUnlocalizedName("LithiumIngot");
+        this.setTextureName("lithiumingot");
         this.setCreativeTab(CreativeTabNC.NC_TAB);
     }
 }
