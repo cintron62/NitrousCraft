@@ -38,6 +38,10 @@ item.nitrouscraft:ClayIngotMold.name=Clay Ingot Mold
 item.nitrouscraft:WoodIngotMold.name=Wood Ingot Mold
 item.nitrouscraft:TitaniumIngotMold.name=Titanium Ingot Mold
 
+//Discs
+item.nitrouscraft:Flowering Night.name=Touhou 10.5 Disc
+item.record.Flowering Night.desc=Flowering Night
+
 //Tools
 item.nitrouscraft:TitaniumPick.name=Titanium Pickaxe
 item.nitrouscraft:PlatinumPick.name=Platinum Pickaxe

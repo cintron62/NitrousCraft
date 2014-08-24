@@ -1,12 +1,8 @@
 package com.cintron62.nitrouscraft.init;
 
-import com.cintron62.nitrouscraft.entity.machines.NCSmoothStoneFurnace;
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockStone;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 import static com.cintron62.nitrouscraft.init.ModItems.*;

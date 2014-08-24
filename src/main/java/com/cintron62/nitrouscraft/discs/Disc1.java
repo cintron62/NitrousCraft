@@ -1,7 +1,5 @@
 package com.cintron62.nitrouscraft.discs;
 
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.util.ResourceLocation;
 
 /**
