@@ -18,11 +18,24 @@ tile.nitrouscraft:EarthMagnetOre.name=Earth Magnet Ore
 //Ingots
 item.nitrouscraft:PlatinumIngot.name=Platinum Ingot
 item.nitrouscraft:TitaniumIngot.name=Titanium Ingot
-item.nitrouscraft:CobaltIngot.name= Cobalt Ingot
-item.nitrouscraft:CopperIngot.name= Copper Ingot
-item.nitrouscraft:LithiumIngot.name= Lithium Ingot
-item.nitrouscraft:TinIngot.name= Tin Ingot
-item.nitrouscraft:ZincIngot.name= Zinc Ingot
+item.nitrouscraft:CobaltIngot.name=Cobalt Ingot
+item.nitrouscraft:CopperIngot.name=Copper Ingot
+item.nitrouscraft:LithiumIngot.name=Lithium Ingot
+item.nitrouscraft:TinIngot.name=Tin Ingot
+item.nitrouscraft:ZincIngot.name=Zinc Ingot
+
+//OreClusters
+item.nitrouscraft:IronOreCluster.name=Iron Ore Cluster
+item.nitrouscraft:GoldOreCluster.name=Gold Ore Cluster
+item.nitrouscraft:CobaltOreCluster.name=Cobalt Ore Cluster
+item.nitrouscraft:CopperOreCluster.name=Copper Ore Cluster
+item.nitrouscraft:LithiumOreCluster.name=Lithium Ore Cluster
+item.nitrouscraft:PlatinumOreCluster.name=Platinum Ore Cluster
+item.nitrouscraft:TinOreCluster.name=Tin Ore Cluster
+item.nitrouscraft:TitaniumOreCluster.name=Titanium Ore Cluster
+item.nitrouscraft:ZincOreCluster.name=Zinc Ore Cluster
+item.nitrouscraft:.name=
+item.nitrouscraft:.name=
 
 //Blocks
 tile.nitrouscraft:PlatinumBlock.name=Platinum Block
@@ -37,6 +50,13 @@ tile.nitrouscraft:ZincBlock.name=Zinc Block
 item.nitrouscraft:ClayIngotMold.name=Clay Ingot Mold
 item.nitrouscraft:WoodIngotMold.name=Wood Ingot Mold
 item.nitrouscraft:TitaniumIngotMold.name=Titanium Ingot Mold
+
+//Magnets
+item.nitrouscraft:EarthMagnet.name=Earth Magnet
+item.nitrouscraft:RareEarthMagnet.name=Rare Earth Magnet
+item.nitrouscraft:FerriteMagnet.name=Ferrite Magnet
+item.nitrouscraft:AlnicoMagnet.name=Alnico Magnet
+item.nitrouscraft:ElectroMagnet.name=Electro Magnet
 
 //Tools
 item.nitrouscraft:TitaniumPick.name=Titanium Pickaxe

@@ -40,6 +40,7 @@ public class NitrousCraft
         NitrousCraftGenerator eventWorldGen = new NitrousCraftGenerator();
 
         GameRegistry.registerWorldGenerator(eventWorldGen, 0);
+
     }
 
     @Mod.EventHandler

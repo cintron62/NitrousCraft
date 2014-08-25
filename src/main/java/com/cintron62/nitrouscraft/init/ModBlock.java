@@ -1,7 +1,6 @@
 package com.cintron62.nitrouscraft.init;
 
 import com.cintron62.nitrouscraft.block.*;
-import com.cintron62.nitrouscraft.entity.machines.NCSmoothStoneFurnace;
 import com.cintron62.nitrouscraft.ore.*;
 import com.cintron62.nitrouscraft.referance.Referance;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -17,9 +16,6 @@ public class ModBlock
     public static final BlockNC CobaltBlock = new NCCobaltBlock();
     public static final BlockNC LithiumBlock = new NCLithiumBlock();
     public static final BlockNC ZincBlock = new NCZincBlock();
-
-    //Machines
-    public static final BlockNC SmoothStoneFurnace = new NCSmoothStoneFurnace();
 
     //Ore
     public static final BlockNC PlatinumOre =new NCPlatinumOre();
@@ -41,9 +37,6 @@ public class ModBlock
         GameRegistry.registerBlock(CobaltBlock, "CobaltBlock");
         GameRegistry.registerBlock(LithiumBlock, "LithiumBlock");
         GameRegistry.registerBlock(ZincBlock, "ZincBlock");
-
-        //Machines
-        GameRegistry.registerBlock(SmoothStoneFurnace, "SmoothStoneFurnace");
 
         //Ores
         GameRegistry.registerBlock(PlatinumOre, "PlatinumOre");

@@ -185,6 +185,14 @@
       </item>
     </group>
   </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="Matt">
+      <words>
+        <w>alnico</w>
+        <w>nitrouscraft</w>
+      </words>
+    </dictionary>
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NitrousCraft.iml" filepath="$PROJECT_DIR$/NitrousCraft.iml" />
