@@ -51,12 +51,18 @@ item.nitrouscraft:ClayIngotMold.name=Clay Ingot Mold
 item.nitrouscraft:WoodIngotMold.name=Wood Ingot Mold
 item.nitrouscraft:TitaniumIngotMold.name=Titanium Ingot Mold
 
+<<<<<<< HEAD
 //Magnets
 item.nitrouscraft:EarthMagnet.name=Earth Magnet
 item.nitrouscraft:RareEarthMagnet.name=Rare Earth Magnet
 item.nitrouscraft:FerriteMagnet.name=Ferrite Magnet
 item.nitrouscraft:AlnicoMagnet.name=Alnico Magnet
 item.nitrouscraft:ElectroMagnet.name=Electro Magnet
+=======
+//Discs
+item.nitrouscraft:Flowering Night.name=Touhou 10.5 Disc
+item.record.Flowering Night.desc=Flowering Night
+>>>>>>> d0d765a973e67d0a5eadfd8843c7650781dc39a0
 
 //Tools
 item.nitrouscraft:TitaniumPick.name=Titanium Pickaxe

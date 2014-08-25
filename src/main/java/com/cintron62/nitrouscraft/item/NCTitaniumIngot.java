@@ -8,6 +8,7 @@ public class NCTitaniumIngot extends ItemNC
     {
         super();
         this.setUnlocalizedName("TitaniumIngot");
+        this.setTextureName("titaniumingot");
         this.setCreativeTab(CreativeTabNC.NC_TAB);
     }
 

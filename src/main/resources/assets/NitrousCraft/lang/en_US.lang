@@ -58,6 +58,10 @@ item.nitrouscraft:FerriteMagnet.name=Ferrite Magnet
 item.nitrouscraft:AlnicoMagnet.name=Alnico Magnet
 item.nitrouscraft:ElectroMagnet.name=Electro Magnet
 
+//Discs
+item.nitrouscraft:Flowering Night.name=Touhou 10.5 Disc
+item.record.Flowering Night.desc=Flowering Night
+
 //Tools
 item.nitrouscraft:TitaniumPick.name=Titanium Pickaxe
 item.nitrouscraft:PlatinumPick.name=Platinum Pickaxe

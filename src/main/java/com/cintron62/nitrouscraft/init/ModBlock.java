@@ -1,6 +1,8 @@
 package com.cintron62.nitrouscraft.init;
 
 import com.cintron62.nitrouscraft.block.*;
+
+import com.cintron62.nitrouscraft.machines.NCSmoothStoneFurnace;
 import com.cintron62.nitrouscraft.ore.*;
 import com.cintron62.nitrouscraft.referance.Referance;
 import cpw.mods.fml.common.registry.GameRegistry;

@@ -8,6 +8,7 @@ public class NCWoodIngotMold extends ItemNC
     {
         super();
         this.setUnlocalizedName("WoodIngotMold");
+        this.setTextureName("woodingotmold");
         this.setCreativeTab(CreativeTabNC.NC_TAB);
     }
 }

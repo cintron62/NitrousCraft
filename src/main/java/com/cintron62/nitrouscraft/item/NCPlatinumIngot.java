@@ -8,6 +8,7 @@ public class NCPlatinumIngot extends ItemNC
     {
         super();
         this.setUnlocalizedName("PlatinumIngot");
+        this.setTextureName("platinumingot");
         this.setCreativeTab(CreativeTabNC.NC_TAB);
     }
 }
