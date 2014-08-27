@@ -1,6 +1,5 @@
 package com.cintron62.nitrouscraft.init;
 
-import com.cintron62.nitrouscraft.discs.*;
 import com.cintron62.nitrouscraft.item.*;
 import com.cintron62.nitrouscraft.item.ore.*;
 import com.cintron62.nitrouscraft.item.ingot.*;
@@ -14,13 +13,13 @@ import cpw.mods.fml.common.registry.GameRegistry;
     {
 
         //Ingots
-        public static final ItemNC PlatinumIngot = new NCPlatinumIngot();
-        public static final ItemNC TitaniumIngot = new NCTitaniumIngot();
-        public static final ItemNC CobaltIngot = new NCCobaltIngot();
-        public static final ItemNC CopperIngot = new NCCopperIngot();
-        public static final ItemNC LithiumIngot = new NCLithiumIngot();
-        public static final ItemNC TinIngot = new NCTinIngot();
-        public static final ItemNC ZincIngot = new NCZincIngot();
+        public static final ItemNC PlatinumIngot = new PlatinumIngot();
+        public static final ItemNC TitaniumIngot = new TitaniumIngot();
+        public static final ItemNC CobaltIngot = new CobaltIngot();
+        public static final ItemNC CopperIngot = new CopperIngot();
+        public static final ItemNC LithiumIngot = new LithiumIngot();
+        public static final ItemNC TinIngot = new TinIngot();
+        public static final ItemNC ZincIngot = new ZincIngot();
 
         //Magnets
         public static final ItemNC EarthMagnet = new NCEarthMagnet();
