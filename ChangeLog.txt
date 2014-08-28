@@ -1,3 +1,7 @@
+1.7.10-0.0.2
+
+Added brick blocks
+
 1.7.10-0.0.1
 
 Basic worldgen added

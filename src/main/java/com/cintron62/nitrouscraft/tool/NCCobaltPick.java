@@ -1,8 +1,5 @@
 package com.cintron62.nitrouscraft.tool;
 
-/**
- * Created by Rikusen on 8/20/2014.
- */
 public class NCCobaltPick extends PickaxeNC
 {
     public NCCobaltPick(ToolMaterial p_i45347_1_) {

@@ -45,6 +45,13 @@ tile.nitrouscraft:TinBlock.name=Tin Block
 tile.nitrouscraft:CobaltBlock.name=Cobalt Block
 tile.nitrouscraft:LithiumBlock.name=Lithium Block
 tile.nitrouscraft:ZincBlock.name=Zinc Block
+tile.nitrouscraft:PlatinumBrick.name=Platinum Brick
+tile.nitrouscraft:TitaniumBrick.name=Titanium Brick
+tile.nitrouscraft:CopperBrick.name=Copper Brick
+tile.nitrouscraft:TinBrick.name=Tin Brick
+tile.nitrouscraft:CobaltBrick.name=Cobalt Brick
+tile.nitrouscraft:LithiumBrick.name=Lithium Brick
+tile.nitrouscraft:ZincBrick.name=Zinc Brick
 
 //Items
 item.nitrouscraft:ClayIngotMold.name=Clay Ingot Mold
@@ -59,8 +66,8 @@ item.nitrouscraft:AlnicoMagnet.name=Alnico Magnet
 item.nitrouscraft:ElectroMagnet.name=Electro Magnet
 
 //Discs
-item.nitrouscraft:Flowering Night.name=Touhou 10.5 Disc
-item.record.Flowering Night.desc=Flowering Night
+item.nitrouscraft:FloweringNight.name=Touhou 10.5 Disc
+item.record.FloweringNight.desc=Flowering Night
 
 //Tools
 item.nitrouscraft:TitaniumPick.name=Titanium Pickaxe

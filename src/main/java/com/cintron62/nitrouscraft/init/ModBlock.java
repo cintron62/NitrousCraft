@@ -1,6 +1,7 @@
 package com.cintron62.nitrouscraft.init;
 
 import com.cintron62.nitrouscraft.block.*;
+import com.cintron62.nitrouscraft.block.brickblocks.*;
 import com.cintron62.nitrouscraft.block.solidblocks.*;
 import com.cintron62.nitrouscraft.entity.machines.NCCraftingDesk;
 import com.cintron62.nitrouscraft.ore.*;
@@ -18,6 +19,14 @@ public class ModBlock
     public static final BlockNC CobaltBlock = new NCCobaltBlock();
     public static final BlockNC LithiumBlock = new NCLithiumBlock();
     public static final BlockNC ZincBlock = new NCZincBlock();
+    public static final BlockNC PlatinumBrick = new NCPlatinumBrick();
+    public static final BlockNC TitaniumBrick = new NCTitaniumBrick();
+    public static final BlockNC CopperBrick = new NCCopperBrick();
+    public static final BlockNC TinBrick = new NCTinBrick();
+    public static final BlockNC CobaltBrick = new NCCobaltBrick();
+    public static final BlockNC LithiumBrick = new NCLithiumBrick();
+    public static final BlockNC ZincBrick = new NCZincBrick();
+
 
     //Ore
     public static final BlockNC PlatinumOre =new NCPlatinumOre();
@@ -42,6 +51,13 @@ public class ModBlock
         GameRegistry.registerBlock(CobaltBlock, "CobaltBlock");
         GameRegistry.registerBlock(LithiumBlock, "LithiumBlock");
         GameRegistry.registerBlock(ZincBlock, "ZincBlock");
+        GameRegistry.registerBlock(PlatinumBrick, "PlatinumBrick");
+        GameRegistry.registerBlock(TitaniumBrick, "TitaniumBrick");
+        GameRegistry.registerBlock(CopperBrick, "CopperBrick");
+        GameRegistry.registerBlock(TinBrick, "TinBrick");
+        GameRegistry.registerBlock(CobaltBrick, "CobaltBrick");
+        GameRegistry.registerBlock(LithiumBrick, "LithiumBrick");
+        GameRegistry.registerBlock(ZincBrick, "ZincBrick");
 
         //Ores
         GameRegistry.registerBlock(PlatinumOre, "PlatinumOre");
