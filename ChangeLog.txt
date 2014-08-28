@@ -1,0 +1,11 @@
+1.7.10-0.0.1
+
+Basic worldgen added
+Basic ore added
+Basic ore blocks added
+Basic items added
+Some tools added (WIP)
+Work on 5x5 crafting table started (WIP)
+
+
+

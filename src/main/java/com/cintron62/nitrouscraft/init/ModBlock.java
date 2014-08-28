@@ -2,6 +2,7 @@ package com.cintron62.nitrouscraft.init;
 
 import com.cintron62.nitrouscraft.block.*;
 import com.cintron62.nitrouscraft.block.solidblocks.*;
+import com.cintron62.nitrouscraft.entity.machines.NCCraftingDesk;
 import com.cintron62.nitrouscraft.ore.*;
 import com.cintron62.nitrouscraft.referance.Referance;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -28,6 +29,9 @@ public class ModBlock
     public static final BlockNC ZincOre =new NCZincOre();
     public static final BlockNC EarthMagnetOre =new NCEarthMagnetOre();
 
+    //Machines
+    public static BlockNC CraftingDesk = new NCCraftingDesk();
+
     public static void init()
     {
         //Blocks
@@ -48,6 +52,9 @@ public class ModBlock
         GameRegistry.registerBlock(LithiumOre, "LithiumOre");
         GameRegistry.registerBlock(ZincOre, "ZincOre");
         GameRegistry.registerBlock(EarthMagnetOre, "EarthMagnetOre");
+
+        //Machines
+        GameRegistry.registerBlock(CraftingDesk, "CraftingDesk");
 
 
 

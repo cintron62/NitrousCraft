@@ -1,5 +1,6 @@
 package com.cintron62.nitrouscraft;
 
+import com.cintron62.nitrouscraft.block.BlockNC;
 import com.cintron62.nitrouscraft.handler.ConfigurationHandler;
 import com.cintron62.nitrouscraft.init.*;
 import com.cintron62.nitrouscraft.proxy.IProxy;
@@ -12,6 +13,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = Referance.MOD_ID, name = Referance.MOD_NAME, version = Referance.VERSION, guiFactory = Referance.GUI_FACTORY_CLASS)
@@ -21,6 +23,8 @@ public class NitrousCraft
     @Mod.Instance(Referance.MOD_ID)
     public static NitrousCraft instance;
 
+    public static final int guiIDCraftingDesk = 1;
+
     @SidedProxy(clientSide = Referance.CLIENT_PROXY_CLASS, serverSide = Referance.SERVER_PROXY_CLASS)
     public static IProxy proxy;
 
@@ -29,7 +33,6 @@ public class NitrousCraft
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-        LogHelper.info("Pre Initialization Complete!");
 
         ModItems.init();
 
@@ -40,6 +43,8 @@ public class NitrousCraft
         NitrousCraftGenerator eventWorldGen = new NitrousCraftGenerator();
 
         GameRegistry.registerWorldGenerator(eventWorldGen, 0);
+
+        LogHelper.info("Pre Initialization Complete!");
     }
 
     @Mod.EventHandler
